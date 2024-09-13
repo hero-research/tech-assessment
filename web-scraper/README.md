@@ -18,7 +18,7 @@ You are provided with a variety of attributes that need to be organized, The com
 
 ### Data to Collect:
 
-#### Level 0 (General Business Info):
+#### Level 1 (General Business Info):
  - Name
  - Website
  - Phone
@@ -26,7 +26,7 @@ You are provided with a variety of attributes that need to be organized, The com
  - Open Hours
  - Address
 
-#### Level 1 (Categorical/Tag List):
+#### Level 2 (Categorical/Tag List):
  - Category of Food
  - Price Classification (i.e. `$$` vs `$$$`)
  - Health Score
@@ -34,17 +34,17 @@ You are provided with a variety of attributes that need to be organized, The com
  - Highlights
  - Related Search Terms
 
-#### Level 1.5 (Measurable):
+#### Level 3A (Measurable):
  - Overall Rating
  - Overall Number of Reviews
  - Date of Establishment
 
-#### Level 1.5 (Status):
+#### Level 3B (Status):
  - Standalone (restaurant located within building vs. standalone brick & mortar)
  - Profile Status: (Claimed vs. Unclaimed)
  - Operational Status: (Permanently Closed vs. Operational vs. "coming soon")
 
-#### Level 2 (Text):
+#### Level 4 (Text):
  - About/Description
  - FAQs 
  - User Reviews
@@ -53,8 +53,17 @@ You are provided with a variety of attributes that need to be organized, The com
    + Commentary/Text
    + Reviewer's Details
 
-#### Level 3 (File):
+#### Level 5 (File):
  - Menu
  - Cover Image
  - Business Logo
  - Media Gallery
+
+
+<!-- EVALUATION -->
+ ### Evaluating Results
+  - Results from Level 1-3 should be sent as `.csv` or `.xlsx`
+  - Results from Level 4 should be sent as `.json`
+  - Results from Level 5 may be sent as `.zip`  
+
+  - Code to run Scraper will be evaluated, and may be submited as a link to a public github repo, or packaged in a docker container

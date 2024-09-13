@@ -3,7 +3,7 @@
 
 This is an ETL exercise to demonstrate Data modeling and API development skills.
 
-### Estimated time to Complete: 2 Hours
+### Estimated time to Complete: ~2-3 Hours
 
 This task is meant to be completed at home. We appreciate your time devoted to this technical assessment, and we 
 will review the submission together during the follow-up interview where you may be asked reasons behind your
@@ -16,18 +16,18 @@ methodology, or any next-steps for remaining unwritten code that was not complet
 You are provided a list of Venues that host events. The dataset contains the 
 time ranges of events on a given weekday, as well as the Category of the event at a particular location.
 
-#### Task 1:
- Cleanse data and Import into Database (Database is left to developer's choice)
+#### `Task 1`:
+ Cleanse data, define rudimentary Data Model to prepare an Import into Database (Database is left to developer's choice)
  - format timeranges (Timezones are split into separate column already)
  - split categories by delimiter (semicolon ;)
 
-#### Task 2:
+#### `Task 2`:
  Create endpoints to Query the events
  - Query by Category
  - Query by Day of the Week
  - Query by Events Happening Now (Time of Day)
 
-#### Task 3:
+#### `Task 3`:
 Options to Export your submission, Prepare for Discussion
  - Compress/Zip all files, send to Point of Contact
  - Private Github repo link or Git bundle
