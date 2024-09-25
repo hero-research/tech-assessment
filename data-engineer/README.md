@@ -26,7 +26,7 @@ time ranges of events on a given weekday, as well as the Category of the event a
  - Query by Day of the Week
  - Query by Events Happening Now (based on current Time of Day, and provide attribute showing time until close)
  - Query by Category, provide Top 100 Rank(ranking metric can be defined by developer, given data available, prepare to simply speak to your methodology behind ranking)
- - Bonus: Provide Top 100 "Family Friendy" events available on Sunday at 2PM (East Coast Time zone)
+ - Bonus: Provide Top 100 "Family Friendy" events available on Sunday at 2PM (East Coast Timezone)
 
 #### `Task 3`:
 Options to Export your submission, Prepare for Discussion
