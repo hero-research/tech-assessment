@@ -20,25 +20,29 @@ time ranges of events on a given weekday, as well as the Category of the event a
  Cleanse data, define rudimentary Data Model to prepare an Import into Database (Database is left to developer's choice)
  - format timeranges (Timezones are split into separate column already)
  - split categories by delimiter (semicolon ;)
+ - init db, ensure schema is generated in startup event(s)
 
 #### `Task 2`:
  Create endpoints to Query the events
- - Query by Day of the Week
+ - Query by Category (pagination optional)
+ - Query by Day of the Week (pagination optional)
  - Query by Events Happening Now (based on current Time of Day, and provide attribute showing time until close)
- - Query by Category, provide Top 100 Rank(ranking metric can be defined by developer, given data available, prepare to simply speak to your methodology behind ranking)
- - Bonus: Provide Top 100 "Family Friendy" events available on Sunday at 2PM (East Coast Timezone)
 
 #### `Task 3`:
 Options to Export your submission, Prepare for Discussion
  - Compress/Zip all files, send to Point of Contact
  - Private Github repo link or Git bundle
+ - Include step-by-step docs to ensure code is able to run, and reproduce results from Endpoints
+
 
 #### Requirements
- - We are evaluating your Data Engineering skills using Python and SQL.
+ - We are evaluating your Data Engineering skills using Python and SQL... Other frameworks you chose to help demonstrate your abilities are welcome, but will be evaluated with less priority.
  - Provide a README file containing clear, simple instructions to execute code (and any tests you may have included).
  - Use any libraries of your choice, (caveat: If you do not submit virtual environment or Docker Container with start-up instructions the submission will be evaluated accordingly)
  - This sample test set is a subset of many other Time Ranges that may or may not follow the schema, so ensure that your code coverage is not over-fitted to this set.
  - Provide Comments/Docstrings to explain methods/functions.
+ - Speed vs. Accuracy is a trade-off in many industries, but Attention to Detail is a major component of any role within a Data Career, especially within Data Engineering. Please keep this in mind for each task, from cleaning data to developing the endpoints.
+
 
 #### What we Evaluate
 This task is derived from real-world data to evaluate your ability to problem-solve and communicate effectively.
